@@ -1,4 +1,4 @@
-# Airbank demo Java + Spring orchestration project
+# Orchestration demo Java + Spring project
 
 ## Technology
 * Java 11
