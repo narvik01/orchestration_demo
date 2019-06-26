@@ -1,11 +1,13 @@
 package com.zentity.demo.jsonplaceholder.model.fe;
 
-public class Todo {
+public class FETodo {
 
     private String title;
     private boolean completed;
 
-    public Todo(String title, boolean completed) {
+    public FETodo() {}
+
+    public FETodo(String title, boolean completed) {
         this.title = title;
         this.completed = completed;
     }

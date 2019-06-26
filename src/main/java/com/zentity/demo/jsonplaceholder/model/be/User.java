@@ -1,20 +1,11 @@
-package com.zentity.demo.jsonplaceholder.model.fe;
+package com.zentity.demo.jsonplaceholder.model.be;
 
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotNull;
-import java.util.ArrayList;
-import java.util.List;
+public class User {
 
-public class UserInfo {
-
-    @NotNull
     private Integer id;
-    @NotNull
     private String username;
     private String name;
-    @Email
     private String email;
-    private List<FETodo> todos;
 
     public Integer getId() {
         return id;
@@ -46,15 +37,5 @@ public class UserInfo {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public List<FETodo> getTodos() {
-        if (todos == null)
-            todos = new ArrayList<>();
-        return todos;
-    }
-
-    public void setTodos(List<FETodo> todos) {
-        this.todos = todos;
     }
 }
