@@ -25,6 +25,6 @@ Or visit http://localhost:8080/swagger-ui.html where REST API documentation is l
 
 Supports `GET`, `HEAD`, `OPTIONS` operations, `ETag` and `If-None-Match` header.
 
-##Configuration
+## Configuration
 * Backend url: `jsonplaceholder.baseurl`
 * Backend connection properties: `timeout.connection`, `timeout.read`, `timeout.write`
